@@ -1,8 +1,13 @@
 package lab4;
 import java.awt.Color;
 import java.awt.Graphics;
-public class Linie extends FiguraGeometrica{
+public class Linie extends FiguraGeometrica {
 	
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	int x;
 	int y;
 	public Linie() {}
@@ -25,6 +30,12 @@ public class Linie extends FiguraGeometrica{
 		g1.setColor(new Color(r,g,b1));
 		
 				
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

@@ -1,17 +1,18 @@
 package lab4;
 import java.awt.*;
+
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.*;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import java.io.*;
-import java.util.Vector;
 public class Fereastra extends JFrame implements ActionListener {
 	
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private GestiuneFiguriGeometrice g;
 	private JButton update;
 	private JButton btnlinie;
@@ -78,7 +79,12 @@ public class Fereastra extends JFrame implements ActionListener {
 		Fereastra fereastra=new Fereastra();
 		fereastra.setVisible(true);
 		
+		Cerc cerc= new Cerc.Builder().withOpacity(1).withHeight(2).withWidth(5).build();
+		System.out.println(cerc.getOpacity()+"-"+cerc.getHeight()+"-"+cerc.getWidth());
 		
+		
+						
+						
 		
 	}
 

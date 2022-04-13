@@ -10,6 +10,10 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class DateJson implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	final String FileName="info.json";
 	
 	public void scriere_date_figura(FiguraGeometrica figuri[])
